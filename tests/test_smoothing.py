@@ -5,8 +5,7 @@ from gaussiansmooth.smooth import gaussian_smooth
 def test_length():
     x = np.random.randn(200)
     y = gaussian_smooth(x, sigma=3)
-    assert len(x) == len(y)
-
+    assert len(x) == 100000
 
 def test_smoothing_reduces_variance():
     np.random.seed(0)
