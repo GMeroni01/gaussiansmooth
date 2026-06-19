@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(name="gaussiansmooth_giorgiom",
-      version="0.0.6",
+      version="0.1",
       description="Gaussian smoothing for noisy signals",
       long_description=long_description,
       long_description_content_type="text/markdown",
